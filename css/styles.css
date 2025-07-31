@@ -1,0 +1,17 @@
+body{
+    height: 100vh;
+    cursor: none;
+}
+
+.trail{
+    position: absolute;
+    height: 6px;
+    width: 6px;
+    border-radius: 3px;
+    background: teal;
+    pointer-events: none;
+    transition: all 1s ease-out;
+    opacity: 1;
+}
+
+
